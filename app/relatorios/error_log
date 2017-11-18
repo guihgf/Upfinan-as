@@ -1,0 +1,8 @@
+[02-Nov-2014 14:34:13] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'upfin284_sistema.LANCAMENTOS_RECEITAS' doesn't exist' in /home/upfin284/public_html/sistema/app/db/relatorios_db.php:74
+Stack trace:
+#0 /home/upfin284/public_html/sistema/app/db/relatorios_db.php(74): PDOStatement->execute()
+#1 /home/upfin284/public_html/sistema/app/relatorios/relatorio_action.php(38): RelatorioDB->extrato('41', '33', '2014-09-03', '2014-11-02')
+#2 /home/upfin284/public_html/sistema/rest/Rest.inc.php(23): RelatorioAction->extrato_pdf()
+#3 /home/upfin284/public_html/sistema/app/relatorios/relatorio_action.php(56): REST->processApi()
+#4 {main}
+  thrown in /home/upfin284/public_html/sistema/app/db/relatorios_db.php on line 74

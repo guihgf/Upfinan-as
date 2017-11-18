@@ -1,0 +1,22 @@
+.table_graf{
+	border: 2px;
+	border-style: solid;
+  }
+.th_graf{
+	color: #fff;
+	background-color: #3276b1;
+	border-color: #285e8e;
+	padding: 20px;
+	text-align:center;
+}
+
+.tr_graf{
+	text-align:center;
+	border-left:2px;
+}
+
+
+
+
+
+
